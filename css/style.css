@@ -1,0 +1,1215 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap');
+
+/* reset style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* global style */
+body {
+    min-height: 100vh;
+    justify-content: space-between;
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 27px;
+    font-family: "Exo", sans-serif;
+}
+
+/* header style */
+header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: rgb(103, 85, 68);
+    color: black;
+    min-height: 10vh;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+
+.beeld{
+    margin-left: 20px;
+    height: 100px;
+    width: 200px;
+}
+/* main css */
+main {
+    display: grid;
+    justify-content: center;
+    margin: 5px 5vw;
+}
+
+main img {
+    object-fit: cover;
+}
+
+/* footer css */
+footer {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    background-color: rgb(103, 85, 68);
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Exo", sans-serif;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.icons img{
+    width: 100px;
+    height: 50px;
+}
+
+/* menu grid css */
+.menuGrid{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-Nav{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-h1 h1{
+    font-size: 30px;
+}
+/* gallery grid */
+.gal-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.gal-item{
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+}
+
+.galItem-1{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.galItem-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* about us grid css */
+.rev-link a{
+    font-size: 15px;
+}
+
+.rev-link a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.about-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.about-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h2{
+    font-family: "Exo", sans-serif;
+}
+/* vacature grid css */
+.vac-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 40px 40px;
+}
+.vac-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    animation: fade-in linear;
+    animation-timeline: view();
+  
+}
+
+.vac-col{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.vac-blok{
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.vac-blok img{
+    width: 200px;
+    height: 200px;
+}
+
+@keyframes fade-in{
+    from{scale: .8;}
+    to{scale: 1;}
+}
+
+/* website css */
+
+h1{
+    font-family: "Exo", sans-serif;
+}
+
+h3{
+    font-family: "Exo", sans-serif;
+    border-bottom: 1px solid black;
+}
+.center{
+    text-align: center;
+}
+
+.center2{
+    align-items: center;
+}
+
+p{
+    font-family: "Ruda", sans-serif;
+}
+
+.font-40{
+    font-size: 40px;
+}
+
+
+.gap-5{
+    gap: 5px;
+}
+
+.gap-20{
+    gap: 20px;
+    column-gap: 30px;
+}
+
+.gap30{
+    gap: 30px;
+}
+
+.title{
+    margin: 5px 5vw;
+    font-size: 40px;
+}
+/* blok css */
+.blok{
+    background-color: rgb(172, 172, 172);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.blok-40{
+    background-color: rgb(172, 172, 172);
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.menu img{
+    border-radius: 0px 20px 0px 20px;
+}
+
+/* policy grid css */
+.policy-title{
+    margin: 10px;
+    text-align: center;
+}
+
+.policy-title h1{
+    font-size: 60px;
+    margin: 44px;
+    color: white;
+    text-align: center;
+}
+
+.main{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 20px 20px 0px 0px;
+    width: 1200px;
+}
+
+.main h2{
+    font-size: 40px;
+    color: black;
+    margin: 20px;
+    padding: 21px;
+    text-align: center;
+}
+
+.main h3{
+    font-size: 30px;
+    color: black;
+    margin: 10px;
+}
+
+.main h4{
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+}
+
+.main p{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.margin-30{
+    margin: 30px;
+}
+
+
+#Rechten img{
+    height: 150px;
+    width: 150px;
+}
+
+
+#AVGWET img{
+    width: 200px;
+    height: 200px;
+}
+
+.grow {
+    transition: all .1s ease-in-out;
+}
+.grow:hover {
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+    width: 300px;
+}
+
+.blok-policy{
+    margin: 30px;
+    text-align: center;
+}
+
+.blok-policy h1{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;    
+    color: black;
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* slideshow css */
+
+.slideshow .slide{
+    display: none;
+    transition: 1000ms;
+}
+
+.slideshow .slide:first-child {
+    display: block;
+}
+
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "homeGrid2" "homeGrid1";
+}
+
+
+/* hamburger css */
+header > .Hamburger {
+    display: none;
+    height: 60px;
+    width: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+
+header > #nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr 7fr;
+    background-color: rgb(103, 85, 68);
+    margin: 8px;
+    gap: 20px;
+}
+
+header #nav a:hover{
+    color: rgb(172, 172, 172);
+}
+
+/* gallery size */
+.size1 img{
+    width: fit-content;
+    height: fit-content;
+}
+
+.size2 img{
+    width: fit-content;
+    height: fit-content;
+}
+
+.size3 img{
+    width: fit-content;
+    height: fit-content;
+}
+
+.size4 img{
+    height: fit-content;
+    width: fit-content;
+}
+
+/* form css */
+form {
+    font-family: "Exo", sans-serif;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 30px;
+    padding: 1em;
+    padding: 1em;
+    width: 800px;
+  }
+  form input {
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    border-color: transparent;
+    border-bottom: 1px solid white;
+    background: transparent;
+  }
+  form button {
+    border-radius: 6px;
+    background: lightgrey;
+    padding: 0.7em;
+    width: 100%;
+    border: 0;
+  }
+  form button:hover {
+    background: rgb(179, 179, 121);
+  }
+  
+  label {
+    color: white;
+    float: left;
+    padding: 0.5em 0.5em 0.5em 0;
+  }
+  
+  input {
+    padding: 0.7em;
+    margin-bottom: 0.5rem;
+  }
+  label {
+    padding: 0.5em 0.5em 0.5em 0;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  ::placeholder{
+    color: lightgray;
+  }
+
+  .overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0, 0.8);
+    transition: opacity 500ms;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .popUp-wrap{
+    margin: 70px auto;
+    padding: 20px;
+    background: rgb(183, 159, 136);
+    position: relative;
+    border-radius: 6px;
+    width: 30%;
+    transition: all 5s ease-in-out;
+    margin-top: 190px
+  }
+
+  .popUp-wrap .close{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .popUp-wrap .content{
+    overflow: auto;
+  }
+
+  .container{
+    border-radius: 6px;
+    background-color: rgb(183, 159, 136);
+    padding: 20px 0;
+  }
+
+  .privacy{
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+  }
+
+  .privacy:hover{
+    text-decoration: underline;
+  }
+
+/* arrangements css grid */
+.arr-col{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 5px;
+}
+
+.arr-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.arr-blok{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+/* review pagina */
+.rev-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.rev-blok{
+    background: linear-gradient(to bottom right, rgb(241, 224, 102), rgb(215, 111, 208));
+    border-radius: 50%;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+
+.rev-row{
+    display: flex;
+    flex-direction: row;
+}
+
+/* telefoon css */
+@media screen and (max-width:480px) {
+    #nav{
+        transform: none;
+        transition: none;
+    }
+}
+@media screen and (max-width: 480px) { 
+    .rev-blok{
+        background: linear-gradient(to bottom right, rgb(241, 224, 102), rgb(215, 111, 208));
+        border-radius: 50%;
+        padding: 20px;
+        margin: 10px;
+        width: 30px;
+        text-align: center;
+    
+    }
+    
+    
+    .rev-row{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .arr-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .rev-blok{
+        height: 20px;
+    }
+
+    .vac-blok{
+        width: 200px;
+    }
+    
+    .vac-row{
+        animation: none; 
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    
+    .vac-img img{
+        width: 94%;
+    }  
+    /* policy grid css */
+    .main{
+        width: 350px;
+    }
+
+    .main p{
+        font-size: .9rem;
+    }
+
+    policy-title h1{
+        font-size: 40px;
+    }
+    
+    .row{
+        display: grid;
+        grid-template-columns: 0fr 1fr;
+    }
+    .main h2{
+        font-size: 20px;
+    }
+
+    .main h3{
+        font-size: 20px;
+    }
+
+    #Rechten img{
+        height: 90px;
+        width: 90px;
+    }
+
+    #AVGWET img{
+        display: none;
+    }
+
+    .column{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .blok-policy h1{
+        font-size: 35px;
+    }
+
+    .main h4{
+        font-size: 15px;
+    }
+    /* about grid css */
+
+    .about-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .about-item{
+        grid-template-columns: 1fr ;
+    }
+
+    /* home grid css */
+    
+.home-grid{
+    grid-template-columns: 1fr;
+}
+
+    /* menu grid css */
+    .flex-row{
+        display: flex;
+       flex-direction: column;
+    }
+    
+    .menu-item{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+    
+    /* popup css */
+    .popUp-wrap{
+        width: 60%;
+        margin-top: 150px;
+    }
+
+    .popUp-wrap .close{
+        font-size: 30px;
+    }
+  
+    /* hamburger menu */
+    #nav{
+        z-index: 1000;
+    }
+    header > .Hamburger{
+        display: block;
+    }
+
+    header{
+        grid-template-columns: 3fr 1fr;
+    }
+
+    header > #nav {
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+        position: absolute;
+        top: 99px;
+        grid-template-columns: 1fr;
+        transform: translateX(-1000px);
+        transition-timing-function: ease-in-out;
+    }
+
+    header > #nav > a{
+        width: 100%;
+        margin: 1px;
+        border-bottom: 1px solid black;
+    }  
+    
+    form{
+        grid-template-columns: 2fr;
+        width: 300px;
+    }
+    /* slideshow style */
+    .slideshow img{
+        width: 310px;
+        height: 150px;
+    }
+    .slideshow .slide{
+        display: none;
+        transition: 1000ms;
+    }
+    
+    .slideshow .slide:first-child {
+        display: block;
+    }
+    
+    .grid{
+        display: grid;
+        grid-auto-columns: repeat(2, 1fr);
+    }
+
+    .title{
+        margin: 5px 5vw;
+        font-size: 20px;
+    }    
+    
+    h1{
+        font-family: "Exo", sans-serif;
+    }
+
+    .beeld{
+        margin-left: 20px;
+        height: 100px;
+        width: 200px;
+    
+    }
+
+    .restaurant img{
+        width: 350px;
+        height: 200px;
+        align-items: center;
+    }
+
+    .gap10{
+        gap: 10px;
+    }
+
+    p{
+        font-family: "Ruda", sans-serif;
+    }
+
+
+    footer{
+        display: grid;
+        grid-template-columns: 2fr;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .icons img{
+        width: 110px;
+    }
+
+    .blok{
+        background-color: rgb(172, 172, 172);
+        border-radius: 20px;
+        padding: 20px;
+    }
+    
+    .blok-40{
+        background-color: rgb(172, 172, 172);
+        border-radius: 40px;
+        padding: 20px;
+    }
+    
+    .menu img{
+        border-radius: 0px 20px 0px 20px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .gap5{
+        gap: 5px;
+    }
+
+    .center2{
+        align-items: center;
+    }
+/* gallery img style */
+    .size1 img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .size2 img{
+        width: 100px;
+        height: 200px;
+    }
+    
+    .size3 img{
+        width: 309px;
+        height: 100px;
+    }
+
+    .size4 img{
+        height: 100px;
+        width: 150px;
+    }
+/* about us video */
+    video{
+        width: 320px;
+        height: auto;
+    }
+}
+
+/* tablet syle */
+@media screen and (min-width: 481px){
+    .rev-blok{
+        background: linear-gradient(to bottom right, rgb(241, 224, 102), rgb(215, 111, 208));
+        border-radius: 50%;
+        padding: 20px;
+        margin: 10px;
+        width: 50px;
+        text-align: center;
+    
+    }    
+    .rev-row{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* policy grid css */
+    .arr-row {
+        grid-template-columns: 1fr;
+    }
+    
+
+    h3{
+        font-size: 30px;
+    }
+  
+    .main{
+        width: 700px;
+    }
+
+    .main p{
+        font-size: 20px;
+    }
+
+    .row{
+        display: grid;
+        grid-template-columns: 0fr 1fr;
+    }
+
+    .policy-title h1{
+        font-size: 58px;
+    }
+
+    .main h2{
+        font-size: 30px;
+    }
+
+    .main h3{
+        font-size: 28px;
+    }
+
+    #Rechten img{
+        height: 100px;
+        width: 100px;
+    }
+
+    #AVGWET img{
+        display: none;
+    }
+
+    .column{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .blok-policy h1{
+        font-size: 65px;
+    }
+
+    .main h4{
+        font-size: 25px;
+    }
+    /* home grid css */
+    
+    .home-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .vac-h1{
+        font-size: 30px;
+    }
+
+    .vac-row{
+        grid-template-columns: 1fr;
+        animation: none;
+    }
+
+    /* menu grid css */
+
+    .flex-row{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menu-item{
+        display: flex;
+        flex-direction: row;
+        gap: 7px;
+    }
+    
+    /* about us grid css */
+    .about-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .about-item{
+        grid-template-columns: 1fr ;
+    }
+
+
+    /* form css */
+    .privacy{
+        font-size: 15px;
+    }
+
+    ::placeholder{
+        font-size: 20px;
+    }
+
+    form {
+        backdrop-filter: blur(15px);
+        width: 560px;
+    }
+    form input {
+        font-size: 30px;
+    }
+
+    form button {
+        font-size: 30px;
+    }
+
+    label{
+        font-size: 30px;
+    }
+
+    .popUp-wrap{
+        width: 70%;
+        margin-top: 280px;
+        border-radius: 20px;
+      }
+
+      .popUp-wrap .close{
+        font-size: 50px;
+      }
+    #nav a {
+        font-size: 17px;
+    }
+    
+
+    main p{
+        font-size: 2rem;
+    }
+    .beeld{
+        margin-left: 20px;
+        height: 100px;
+        width: 200px;
+    }
+    .slideshow img{
+        width: 610px;
+        height: 250px;
+    }
+    .slideshow .slide{
+        display: none;
+        transition: 1000ms;
+    }
+    
+    .slideshow .slide:first-child {
+        display: block;
+    }
+
+
+    .restaurant img{
+        width: 650px;
+        height: 230px;
+        align-items: center;
+    }
+
+    .center2{
+        align-items: center;
+    }
+
+    .menu img{
+        border-radius: 0px 20px 0px 20px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .gap20{
+        gap: 20px;
+    }
+
+    header{
+        grid-template-columns: 0fr 2fr;
+    }
+    /* gallery img size style */
+    .size1 img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .size2 img{
+        width: 200px;
+        height: 400px;
+    }
+    
+    .size3 img{
+        width: 609px;
+        height: 200px;
+    }
+
+    .size4 img{
+        height: 200px;
+        width: 300px;
+    }
+    video{
+        width: 620px;
+        height: 300px;
+        padding: 30px;
+    }
+} 
+
+/* small desktop css */
+@media screen and (min-width: 769px){
+    .rev-row{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .arr-row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+
+    .vac-row{
+        grid-template-columns: 1fr 1fr 1fr;
+        animation: fade-in linear;
+        animation-timeline: view();    
+    }
+
+    @keyframes fade-in{
+        from{scale: .8;}
+        to{scale: 1;}
+    }
+    /* policy grid css */
+   h3 {
+    font-size: 20px;
+   }
+    .main{
+        width: 1200px;
+    }
+
+    .main p{
+        font-size: 20px;
+    }
+
+    .policy-title h1{
+        font-size: 60px;
+    }
+
+    .main h2{
+        font-size: 30px;
+    }
+
+    .main h3{
+        font-size: 28px;
+    }
+
+    #Rechten img{
+        height: 150px;
+        width: 150px;
+    }
+
+    #AVGWET img{
+        display: block;
+        width: 200px;
+        height: 200px;
+    }
+
+    .row{
+        display: grid;
+        grid-template-columns: 0fr 1fr;
+    }
+
+    .blok-policy h1{
+        font-size: 60px;
+    }
+
+    .main h4{
+        font-size: 20px;
+    }
+    /* header grid css */
+    header {
+        grid-template-columns: 1fr 2fr;
+    }
+
+   
+
+    /* home grid css */
+    .home-grid{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-areas: "homeGrid2" "homeGrid1";
+    }
+
+    /* about us grid css */
+    .about-item{
+        grid-template-columns: 1fr 1fr;
+    }
+    .menu-item{
+        flex-direction: column;
+    }    
+
+    video{
+        width: auto;
+        height: 290px;
+    }
+    
+    /* menu grid css */
+    .flex-row{
+        flex-direction: row;
+    }
+    
+    .privacy{
+        font-size: 10px;
+    }
+
+    ::placeholder{
+        font-size: 15px;
+    }
+
+    form {
+        backdrop-filter: blur(15px);
+        width: 900px;
+    }
+    form input {
+        font-size: 15px;
+    }
+
+    form button {
+        font-size: 15px;
+    }
+
+    label{
+        font-size: 15px;
+    }
+    .popUp-wrap{
+        width: 30%;
+        margin-top: 190px;
+        border-radius: 10px;
+      }
+
+    main p{
+        font-size: 15px;
+    }
+    .beeld{
+        margin-left: 20px;
+        height: 100px;
+        width: 200px;
+    }
+    .slideshow img{
+        width: 910px;
+        height: 300px;
+    }
+    .slideshow .slide{
+        display: none;
+        transition: 1000ms;
+    }
+    
+    .slideshow .slide:first-child {
+        display: block;
+    }
+
+    .restaurant img{
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .menu img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .size1 img{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .size2 img{
+        width: 300px;
+        height: 600px;
+    }
+    
+    .size3 img{
+        width: 910px;
+        height: 300px;
+    }
+    
+    .size4 img{
+        height: 300px;
+        width: 455px;
+    }    
+
+    .gap5{
+        gap: 5px;
+    }
+}
